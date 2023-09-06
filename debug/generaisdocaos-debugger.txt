@@ -1,0 +1,72 @@
+exibindoGrade=1
+exibindoCasas=1
+exibindoAreas=1
+exibindoAreasSimplificadas=0
+usandoPilha=1
+exibindoDebug=0
+fpsAtual=24.0748
+tocandoMusica=0
+volumeGeral=56
+
+mouse=614,336
+no tabuleiro=campo
+cursor=3,4 (576,320)
+no tabuleiro=campo
+jogando=1
+tempoDePartida=21441
+faseInicial=0
+turno=0
+acoesPorTurno=1
+pilhaEmAcao=1
+atacandoComAs=0
+faseDeDano=0
+olhandoDescartes=0
+
+jogador 0=Jogador branco
+promovendoPeao=0
+exibindoCartasDasMaos=0
+usandoMovUni=0
+usandoMovGen=0
+usandoAtqExt=0
+consentindoAutomaticamente=0
+esperandoConsentimento=0
+dado=0
+ultimaUnidadeQueFalhou
+NumAtaque=
+lapidesNoTurno=
+
+jogador 1=Jogador preto
+promovendoPeao=0
+exibindoCartasDasMaos=0
+usandoMovUni=0
+usandoMovGen=0
+usandoAtqExt=0
+consentindoAutomaticamente=0
+esperandoConsentimento=1
+dado=0
+ultimaUnidadeQueFalhou
+NumAtaque=
+lapidesNoTurno=
+
+pecaSobCursor=
+
+pecaSelecionada=
+
+-copiaDaPecaSelecionada
+NoCursor= 
+visivel=0
+casasBencao.size=0
+
+casaAlvoSobCursor=
+casasAlvo.size=0
+
+cartaSobCursor=
+
+cartaSelecionada=
+qtde de efeitos na pilha=1
+
+efeito 0 da pilha:
+jog=0
+peca=Peão branco
+casa=2,3 (mov)
+

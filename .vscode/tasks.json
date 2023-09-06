@@ -1,0 +1,112 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "Icone",
+      "command": "d:\\programming\\mingw-w64\\mingw64\\bin\\windres.exe",
+      "args": [
+        "-i",
+        "${workspaceFolder}\\src\\icone\\resource.rc",
+        "-o",
+        "${workspaceFolder}\\obj\\resource.o"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Adiciona o ícone"
+    },
+    {
+      "type": "cppbuild",
+      "label": "Compiler",
+      "command": "d:\\programming\\mingw-w64\\mingw64\\bin\\g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-Wall",
+        //"-g",
+        "-ID:\\programming\\SDL2\\include\\SDL2",
+        "-c",
+        "${workspaceFolder}\\src\\h\\*.h",
+        "${workspaceFolder}\\src\\*.cpp"
+      ],
+      "dependsOn": [
+        "Icone"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}\\obj"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Detail do compiler"
+    },
+    {
+      "type": "cppbuild",
+      "label": "Linker",
+      "command": "d:\\programming\\mingw-w64\\mingw64\\bin\\g++.exe",
+      "args": [
+        "-LD:\\programming\\SDL2\\lib",
+        "-o",
+        "${workspaceFolder}\\bin\\generais-do-caos.exe",
+        "${workspaceFolder}\\obj\\*.o",
+        "-lmingw32",
+        "-lSDL2main",
+        "-lSDL2",
+        "-lSDL2_image",
+        "-lSDL2_mixer",
+        "-lSDL2_ttf"
+      ],
+      "dependsOn": [
+        "Compiler"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}\\obj"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Detail do linker"
+    },
+    {
+      "type": "cppbuild",
+      "label": "Limpeza",
+      "command": "erase",
+      "args": [
+        "${workspaceFolder}\\src\\h\\*.h.gch"
+      ],
+      "dependsOn": [
+        "Linker"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Exclui os arquivos *.h.gch criados na pasta de headers"
+    },
+    {
+      //"type": "cppbuild",
+      "label": "Build",
+      //"command": "g++",
+      "dependsOn": [
+        "Limpeza"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Detail do build"
+    }
+  ],
+  "version": "2.0.0"
+}
