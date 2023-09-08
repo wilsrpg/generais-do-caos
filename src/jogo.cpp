@@ -997,31 +997,40 @@ void Jogo::renderizar(){
 		SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,128);
 		desenharCirculo(gameRenderer,posX+TAMANHO_ESPACO/2,posY+TAMANHO_ESPACO/2,TAMANHO_ESPACO/3,true);
 		
-		if(pilha[i].jog->esperandoConsentimento){
-			int raioC = TAMANHO_ESPACO/10;
-			int corJ = (1-(int)pilha[i].jog->cor)*255;
-			corCirculo = CorPadrao{corJ,corJ,corJ};
-			SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,255);
-			desenharCirculo(gameRenderer,posX+raioC,posY+raioC+(int)pilha[i].jog->cor*(TAMANHO_ESPACO-2*raioC),raioC,true);
-			//contorno
-			corJ = (1-(int)pilha[i].jog->oponente->cor)*255;
-			corCirculo = CorPadrao{corJ,corJ,corJ};
-			SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,255);
-			desenharCirculo(gameRenderer,posX+raioC,posY+raioC+(int)pilha[i].jog->oponente->cor*(TAMANHO_ESPACO-2*raioC),raioC);
+		if(i == pilha.size()-1){
+			//if(pilha[i].jog->esperandoConsentimento){
+			if(jogador[0]->esperandoConsentimento){
+				int raioC = TAMANHO_ESPACO/10;
+				//int corJ = ((int)pilha[i].jog->cor)*255;
+				int corJ = 0;
+				corCirculo = CorPadrao{corJ,corJ,corJ};
+				SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,255);
+				desenharCirculo(gameRenderer,posX+TAMANHO_ESPACO-raioC,posY+TAMANHO_ESPACO-raioC,raioC,true);
+				//contorno
+				//corJ = (1-(int)pilha[i].jog->oponente->cor)*255;
+				corJ = 255;
+				corCirculo = CorPadrao{corJ,corJ,corJ};
+				SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,255);
+				desenharCirculo(gameRenderer,posX+TAMANHO_ESPACO-raioC,posY+TAMANHO_ESPACO-raioC,raioC);
+			}
+			//if(pilha[i].jog->oponente->esperandoConsentimento){
+			if(jogador[1]->esperandoConsentimento){
+				int raioC = TAMANHO_ESPACO/10;
+				//int corJ = ((int)pilha[i].jog->oponente->cor)*255;
+				int corJ = 255;
+				corCirculo = CorPadrao{corJ,corJ,corJ};
+				SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,255);
+				desenharCirculo(gameRenderer,posX+TAMANHO_ESPACO-raioC,posY+raioC,raioC,true);
+				//contorno
+				//corJ = (1-(int)pilha[i].jog->cor)*255;
+				corJ = 0;
+				corCirculo = CorPadrao{corJ,corJ,corJ};
+				SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,255);
+				//desenharCirculo(gameRenderer,posX+raioC,posY+raioC+(int)pilha[i].jog->oponente->cor*(TAMANHO_ESPACO-2*raioC),raioC);
+				desenharCirculo(gameRenderer,posX+TAMANHO_ESPACO-raioC,posY+raioC,raioC);
+			}
 		}
-		if(pilha[i].jog->oponente->esperandoConsentimento){
-			int raioC = TAMANHO_ESPACO/10;
-			int corJ = (1-(int)pilha[i].jog->oponente->cor)*255;
-			corCirculo = CorPadrao{corJ,corJ,corJ};
-			SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,255);
-			desenharCirculo(gameRenderer,posX+raioC,posY+raioC+(int)pilha[i].jog->oponente->cor*(TAMANHO_ESPACO-2*raioC),raioC,true);
-			//contorno
-			corJ = (1-(int)pilha[i].jog->cor)*255;
-			corCirculo = CorPadrao{corJ,corJ,corJ};
-			SDL_SetRenderDrawColor(gameRenderer,corCirculo.r,corCirculo.g,corCirculo.b,255);
-			desenharCirculo(gameRenderer,posX+raioC,posY+raioC+(int)pilha[i].jog->oponente->cor*(TAMANHO_ESPACO-2*raioC),raioC);
-		}
-		
+
 		/*if(pilha[i].cartaAlvo != NULL){ //anuCar
 			pilhaTex = pilha[i].cartaAlvo->tex;
 		} else if(pilha[i].peca != NULL){ //mov, atq, inv, movUni, movGen, atqExt
@@ -1061,8 +1070,10 @@ void Jogo::renderizar(){
 		largAux = (TAMANHO_ESPACO - pilhaTex->largura*escala)/2;
 		altAux = (TAMANHO_ESPACO - pilhaTex->altura*escala)/2;
 		
-		if(existe(pilha[i].carta)) pilhaTex->renderizar(gameRenderer, posX+largAux, posY+altAux, escala, true);
-		else pilhaTex->renderizar(gameRenderer, posX+largAux, posY+altAux, escala);
+		if(existe(pilha[i].carta))
+			pilhaTex->renderizar(gameRenderer, posX+largAux, posY+altAux, escala, true);
+		else
+			pilhaTex->renderizar(gameRenderer, posX+largAux, posY+altAux, escala);
 		
 		if(mouseX >= posX && mouseX < posX+TAMANHO_ESPACO && mouseY >= posY && mouseY < posY+TAMANHO_ESPACO){
 			if(existe(pilha[i].carta)) cartaSobCursor = pilha[i].carta;
