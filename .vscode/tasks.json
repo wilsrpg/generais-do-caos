@@ -1,24 +1,24 @@
 {
   "tasks": [
-    {
-      "type": "cppbuild",
-      "label": "Icone",
-      "command": "d:\\programming\\mingw-w64\\mingw64\\bin\\windres.exe",
-      "args": [
-        "-i",
-        "${workspaceFolder}\\src\\icone\\resource.rc",
-        "-o",
-        "${workspaceFolder}\\obj\\resource.o"
-      ],
-      "problemMatcher": [
-        "$gcc"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": false
-      },
-      "detail": "Adiciona o ícone"
-    },
+    //{
+    //  "type": "cppbuild",
+    //  "label": "Icone",
+    //  "command": "d:\\programming\\mingw-w64\\mingw64\\bin\\windres.exe",
+    //  "args": [
+    //    "-i",
+    //    "${workspaceFolder}\\src\\icone\\resource.rc",
+    //    "-o",
+    //    "${workspaceFolder}\\obj\\resource.o"
+    //  ],
+    //  "problemMatcher": [
+    //    "$gcc"
+    //  ],
+    //  "group": {
+    //    "kind": "build",
+    //    "isDefault": false
+    //  },
+    //  "detail": "Adiciona o ícone"
+    //},
     {
       "type": "cppbuild",
       "label": "Compiler",
@@ -29,12 +29,13 @@
         //"-g",
         "-ID:\\programming\\SDL2\\include\\SDL2",
         "-c",
-        "${workspaceFolder}\\src\\h\\*.h",
-        "${workspaceFolder}\\src\\*.cpp"
+        //"${workspaceFolder}\\src\\h\\*.h",
+        //"${workspaceFolder}\\src\\*.cpp"
+        "${workspaceFolder}\\src\\jogo.cpp"
       ],
-      "dependsOn": [
-        "Icone"
-      ],
+      //"dependsOn": [
+      //  "Icone"
+      //],
       "options": {
         "cwd": "${workspaceFolder}\\obj"
       },
