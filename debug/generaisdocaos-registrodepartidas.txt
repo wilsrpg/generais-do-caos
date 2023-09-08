@@ -1,1 +1,287 @@
 ﻿
+*******
+Partida iniciada (03:38:47 08/09/2023).
+Jogador branco invoca Bispo branco em 0,4.
+Jogador branco invoca Cavalo branco em 0,7.
+Jogador branco invoca Torre branca em 0,6.
+Jogador preto invoca Bispo preto em 7,0.
+Jogador preto invoca Cavalo preto em 7,4.
+Jogador preto invoca Torre preta em 7,1.
+Jogador branco puxa Congelar Peça.
+Jogador branco puxa Aumentar Defesa.
+Jogador branco puxa Contra-Ataque Fatal.
+Jogador preto puxa Aumentar Alcance.
+Jogador preto puxa Anular Carta.
+Jogador preto puxa Mover Unidade.
+Jogador branco move Peão branco em 1,3 para 2,3.
+Jogador preto usa Aumentar Alcance em Peão branco em 1,3.
+Jogador branco usa Congelar Peça em Peão preto em 6,3.
+Jogador preto usa Mover Unidade para mover Peão preto em 6,3 para 6,4.
+Jogador preto usa Anular Carta em Aumentar Alcance (jogador preto).
+Aumentar Alcance anulada.
+Jogador preto descarta Anular Carta.
+Peão preto movido para 6,4.
+Jogador preto descarta Mover Unidade.
+Peão preto está congelado.
+Jogador branco descarta Congelar Peça.
+Aumentar Alcance foi anulada. A ação foi mal sucedida.
+Jogador preto descarta Aumentar Alcance.
+Peão branco movido para 2,3.
+Jogador branco move Peão branco em 2,3 para 3,3.
+Peão branco movido para 3,3.
+Fim do turno 1.
+
+Jogador preto puxa Congelar Peça.
+Jogador preto puxa Ataque direto.
+Jogador preto puxa Recrutar Unidade.
+Partida cancelada (03:40:42 08/09/2023).
+
+*******
+Partida iniciada (03:43:55 08/09/2023).
+Jogador branco invoca Bispo branco em 0,2.
+Jogador branco invoca Cavalo branco em 0,4.
+Jogador branco invoca Torre branca em 0,0.
+Jogador preto invoca Bispo preto em 7,0.
+Jogador preto invoca Cavalo preto em 7,5.
+Jogador preto invoca Torre preta em 7,6.
+Jogador branco puxa Congelar Peça.
+Jogador branco puxa Mover General.
+Jogador branco puxa Anular Carta.
+Jogador preto puxa Recrutar Unidade.
+Jogador preto puxa Mover Unidade.
+Jogador preto puxa Ataque direto.
+Jogador branco move Peão branco em 1,3 para 3,3.
+Jogador branco usa Mover General para mover Cavalo branco em 0,4 para 0,6.
+Cavalo branco movido para 0,6.
+Jogador branco descarta Mover General.
+Peão branco movido para 3,3.
+Partida cancelada (03:45:32 08/09/2023).
+
+*******
+Partida iniciada (03:49:30 08/09/2023).
+Jogador branco invoca Bispo branco em 0,5.
+Jogador branco invoca Cavalo branco em 0,7.
+Jogador branco invoca Torre branca em 0,2.
+Jogador preto invoca Bispo preto em 7,1.
+Jogador preto invoca Cavalo preto em 7,5.
+Jogador preto invoca Torre preta em 7,2.
+Jogador branco puxa Ataque direto.
+Jogador branco puxa Ataque Extra.
+Jogador branco puxa Reviver Unidade.
+Jogador preto puxa Recrutar Unidade.
+Jogador preto puxa Mover Unidade.
+Jogador preto puxa Ataque Extra.
+Jogador branco move Peão branco em 1,3 para 2,3.
+Jogador preto usa Mover Unidade para mover Peão preto em 6,3 para 6,4.
+Jogador branco usa Ataque direto em Peão preto em 6,3.
+Jogador preto usa Recrutar Unidade em 6,5.
+Partida cancelada (04:13:35 08/09/2023).
+
+*******
+Partida iniciada (04:20:08 08/09/2023).
+Jogador branco invoca Bispo branco em 0,2.
+Jogador branco invoca Cavalo branco em 0,1.
+Jogador branco invoca Torre branca em 0,5.
+Jogador preto invoca Bispo preto em 7,4.
+Jogador preto invoca Cavalo preto em 7,5.
+Jogador preto invoca Torre preta em 7,1.
+Jogador branco puxa Reviver Unidade.
+Jogador branco puxa Anular Carta.
+Jogador branco puxa Ataque Extra.
+Jogador preto puxa Mover Unidade.
+Jogador preto puxa Mover Unidade.
+Jogador preto puxa Contra-Ataque Fatal.
+Jogador branco move Peão branco em 1,3 para 2,3.
+Jogador preto usa Mover Unidade para mover Peão preto em 6,3 para 5,3.
+Jogador preto usa Mover Unidade para mover Peão branco em 1,3 para 2,3.
+Jogador branco usa Anular Carta em Mover Unidade (jogador preto).
+Mover Unidade anulada.
+Jogador branco descarta Anular Carta.
+Peão branco movido para 2,3.
+Jogador preto descarta Mover Unidade.
+Mover Unidade foi anulada. A ação foi mal sucedida.
+Jogador preto descarta Mover Unidade.
+Casa em 2,3 está ocupada. A ação foi mal sucedida.
+Jogador branco invoca Peão branco em 1,1.
+Peão branco invocado em 1,1.
+Fim do turno 1.
+
+Jogador preto puxa Aumentar Alcance.
+Jogador preto puxa Anular Carta.
+Partida cancelada (04:23:42 08/09/2023).
+
+*******
+Partida iniciada (04:27:11 08/09/2023).
+Jogador branco invoca Bispo branco em 0,5.
+Jogador branco invoca Cavalo branco em 0,2.
+Jogador branco invoca Torre branca em 0,0.
+Jogador preto invoca Bispo preto em 7,2.
+Jogador preto invoca Cavalo preto em 7,6.
+Jogador preto invoca Torre preta em 7,4.
+Jogador branco puxa Mover General.
+Jogador branco puxa Anular Carta.
+Jogador branco puxa Mover General.
+Jogador preto puxa Ataque direto.
+Jogador preto puxa Ataque Extra.
+Jogador preto puxa Contra-Ataque Fatal.
+Jogador branco move Peão branco em 1,3 para 3,3.
+Partida cancelada (04:28:06 08/09/2023).
+
+*******
+Partida iniciada (04:28:54 08/09/2023).
+Jogador branco invoca Bispo branco em 0,6.
+Jogador branco invoca Cavalo branco em 0,1.
+Jogador branco invoca Torre branca em 0,7.
+Jogador preto invoca Bispo preto em 7,2.
+Jogador preto invoca Cavalo preto em 7,7.
+Jogador preto invoca Torre preta em 7,6.
+Jogador branco puxa Mover Unidade.
+Jogador branco puxa Mover General.
+Jogador branco puxa Anular Carta.
+Jogador preto puxa Contra-Ataque Fatal.
+Jogador preto puxa Aumentar Ataque.
+Jogador preto puxa Mover General.
+Jogador branco invoca Peão branco em 1,1.
+Jogador preto usa Mover General para mover Cavalo preto em 7,7 para 7,4.
+Partida cancelada (04:30:52 08/09/2023).
+
+*******
+Partida iniciada (04:31:17 08/09/2023).
+Jogador branco invoca Bispo branco em 0,2.
+Jogador branco invoca Cavalo branco em 0,6.
+Jogador branco invoca Torre branca em 0,0.
+Jogador preto invoca Bispo preto em 7,4.
+Jogador preto invoca Cavalo preto em 7,1.
+Jogador preto invoca Torre preta em 7,7.
+Jogador branco puxa Contra-Ataque Fatal.
+Jogador branco puxa Contra-Ataque Fatal.
+Jogador branco puxa Aumentar Movimento.
+Jogador preto puxa Reviver Unidade.
+Jogador preto puxa Aumentar Ataque.
+Jogador preto puxa Contra-Ataque Fatal.
+Jogador branco move Peão branco em 1,3 para 2,3.
+Peão branco movido para 2,3.
+Jogador branco move Peão branco em 2,3 para 3,3.
+Peão branco movido para 3,3.
+Fim do turno 1.
+
+Jogador branco usa Aumentar Movimento em Peão preto em 6,3.
+Movimento de Peão preto aumentado em 1.
+Jogador branco descarta Aumentar Movimento.
+Jogador preto move Peão preto em 6,3 para 4,3.
+Peão preto movido para 4,3.
+Jogador preto ataca Peão branco em 3,3 com Peão preto em 4,3.
+Peão preto ataca Peão branco.
+Jogador preto rola um 5 no dado.
+O ataque foi mal sucedido!
+Jogador branco usa Contra-Ataque Fatal em Peão preto em 4,3.
+Jogador branco revida com Contra-Ataque Fatal.
+Peão preto tem a bênção da ressurreição, por isso, volta ao ponto de retorno.
+Jogador branco descarta Contra-Ataque Fatal.
+Jogador branco usa Contra-Ataque Fatal em Peão preto em 6,3.
+Jogador branco revida com Contra-Ataque Fatal.
+Peão preto tem a bênção da ressurreição, por isso, volta ao ponto de retorno.
+Jogador branco descarta Contra-Ataque Fatal.
+Fim do turno 2.
+
+Jogador branco puxa Mover General.
+Jogador branco puxa Mover General.
+Jogador branco puxa Ataque Extra.
+Partida cancelada (04:40:09 08/09/2023).
+
+*******
+Partida iniciada (04:40:43 08/09/2023).
+Jogador branco invoca Bispo branco em 0,5.
+Jogador branco invoca Cavalo branco em 0,1.
+Jogador branco invoca Torre branca em 0,4.
+Jogador preto invoca Bispo preto em 7,2.
+Jogador preto invoca Cavalo preto em 7,5.
+Jogador preto invoca Torre preta em 7,7.
+Jogador branco puxa Aumentar Movimento.
+Jogador branco puxa Ataque direto.
+Jogador branco puxa Recrutar Unidade.
+Jogador preto puxa Mover Unidade.
+Jogador preto puxa Aumentar Ataque.
+Jogador preto puxa Recrutar Unidade.
+Jogador branco move Peão branco em 1,3 para 2,3.
+Peão branco movido para 2,3.
+Jogador preto usa Recrutar Unidade em 6,5.
+Jogador branco usa Recrutar Unidade em 1,1.
+Partida cancelada (04:41:13 08/09/2023).
+
+*******
+Partida iniciada (04:41:51 08/09/2023).
+Jogador branco invoca Bispo branco em 0,7.
+Jogador branco invoca Cavalo branco em 0,5.
+Jogador branco invoca Torre branca em 0,0.
+Jogador preto invoca Bispo preto em 7,1.
+Jogador preto invoca Cavalo preto em 7,5.
+Jogador preto invoca Torre preta em 7,2.
+Jogador branco puxa Reviver Unidade.
+Jogador branco puxa Ataque direto.
+Jogador branco puxa Anular Carta.
+Jogador preto puxa Reviver Unidade.
+Jogador preto puxa Mover Unidade.
+Jogador preto puxa Ataque Extra.
+Jogador branco move Peão branco em 1,3 para 2,3.
+Jogador preto usa Mover Unidade para mover Peão branco em 1,3 para 1,4.
+Partida cancelada (04:42:24 08/09/2023).
+
+*******
+Partida iniciada (04:52:08 08/09/2023).
+Jogador branco invoca Bispo branco em 0,5.
+Jogador branco invoca Cavalo branco em 0,1.
+Jogador branco invoca Torre branca em 0,6.
+Jogador preto invoca Bispo preto em 7,1.
+Jogador preto invoca Cavalo preto em 7,0.
+Jogador preto invoca Torre preta em 7,6.
+Jogador branco puxa Congelar Peça.
+Jogador branco puxa Contra-Ataque Fatal.
+Jogador branco puxa Aumentar Alcance.
+Jogador preto puxa Congelar Peça.
+Jogador preto puxa Mover General.
+Jogador preto puxa Anular Carta.
+Jogador branco move Peão branco em 1,3 para 2,3.
+Partida cancelada (04:52:36 08/09/2023).
+
+*******
+Partida iniciada (04:53:43 08/09/2023).
+Jogador branco invoca Bispo branco em 0,4.
+Jogador branco invoca Cavalo branco em 0,1.
+Jogador branco invoca Torre branca em 0,5.
+Jogador preto invoca Bispo preto em 7,0.
+Jogador preto invoca Cavalo preto em 7,2.
+Jogador preto invoca Torre preta em 7,4.
+Jogador branco puxa Aumentar Defesa.
+Jogador branco puxa Recrutar Unidade.
+Jogador branco puxa Mover General.
+Jogador preto puxa Mover General.
+Jogador preto puxa Aumentar Movimento.
+Jogador preto puxa Recrutar Unidade.
+Jogador branco move Peão branco em 1,3 para 2,3.
+Peão branco movido para 2,3.
+Jogador preto usa Recrutar Unidade em 6,2.
+Jogador branco usa Recrutar Unidade em 1,1.
+Jogador preto usa Mover General para mover Bispo preto em 7,0 para 7,1.
+Jogador branco usa Mover General para mover Bispo branco em 0,4 para 0,2.
+Bispo branco movido para 0,2.
+Jogador branco descarta Mover General.
+Bispo preto movido para 7,1.
+Jogador preto descarta Mover General.
+Peão branco invocado em 1,1.
+Jogador branco descarta Recrutar Unidade.
+Peão preto invocado em 6,2.
+Jogador preto descarta Recrutar Unidade.
+Jogador preto usa Aumentar Movimento em Peão preto em 6,2.
+Movimento de Peão preto aumentado em 1.
+Jogador preto descarta Aumentar Movimento.
+Jogador branco move Peão branco em 1,1 para 3,1.
+Peão branco movido para 3,1.
+Fim do turno 1.
+
+Jogador preto puxa Aumentar Defesa.
+Jogador preto puxa Aumentar Defesa.
+Jogador preto puxa Contra-Ataque Fatal.
+Jogador preto move Peão preto em 6,2 para 4,2.
+Peão preto movido para 4,2.
+Partida cancelada (04:55:54 08/09/2023).

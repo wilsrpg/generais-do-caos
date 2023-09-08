@@ -4,27 +4,27 @@ exibindoAreas=1
 exibindoAreasSimplificadas=0
 usandoPilha=1
 exibindoDebug=0
-fpsAtual=24.0748
+fpsAtual=29.4118
 tocandoMusica=0
-volumeGeral=56
+volumeGeral=64
 
-mouse=614,336
-no tabuleiro=campo
-cursor=3,4 (576,320)
-no tabuleiro=campo
+mouse=130,0
+no tabuleiro=
+cursor=-1,-1 (640,192)
+no tabuleiro=
 jogando=1
-tempoDePartida=21441
+tempoDePartida=130978
 faseInicial=0
-turno=0
+turno=1
 acoesPorTurno=1
-pilhaEmAcao=1
+pilhaEmAcao=0
 atacandoComAs=0
 faseDeDano=0
 olhandoDescartes=0
 
 jogador 0=Jogador branco
 promovendoPeao=0
-exibindoCartasDasMaos=0
+exibindoCartasDasMaos=1
 usandoMovUni=0
 usandoMovGen=0
 usandoAtqExt=0
@@ -37,12 +37,12 @@ lapidesNoTurno=
 
 jogador 1=Jogador preto
 promovendoPeao=0
-exibindoCartasDasMaos=0
+exibindoCartasDasMaos=1
 usandoMovUni=0
 usandoMovGen=0
 usandoAtqExt=0
 consentindoAutomaticamente=0
-esperandoConsentimento=1
+esperandoConsentimento=0
 dado=0
 ultimaUnidadeQueFalhou
 NumAtaque=
@@ -58,15 +58,9 @@ visivel=0
 casasBencao.size=0
 
 casaAlvoSobCursor=
-casasAlvo.size=0
+casasAlvo.size=12
 
 cartaSobCursor=
 
 cartaSelecionada=
-qtde de efeitos na pilha=1
-
-efeito 0 da pilha:
-jog=0
-peca=Peão branco
-casa=2,3 (mov)
-
+qtde de efeitos na pilha=0
