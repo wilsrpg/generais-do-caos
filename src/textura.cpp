@@ -66,9 +66,9 @@ void desenharCirculo(SDL_Renderer* gameRenderer, int centroX, int centroY, int r
 			y = i;
 			x = int(sqrt((double)raio*(double)raio - (double)y*(double)y)); //teorema de Pitágoras
 			SDL_RenderDrawLine(gameRenderer, centroX+x, centroY-y, centroX-x, centroY-y);
-//			if(int(y) > 0) //pra n desenhar a linha "do equador" 2x e ela ficar mais nítida q o resto
-//				SDL_RenderDrawLine(gameRenderer, centroX+x, centroY+y, centroX-x, centroY+y);
-				SDL_RenderDrawLine(gameRenderer, centroX+x, centroY+y+1, centroX-x, centroY+y+1);
+			if(int(y) > 0) //pra n desenhar a linha "do equador" 2x e ela ficar mais nítida q o resto
+				SDL_RenderDrawLine(gameRenderer, centroX+x, centroY+y, centroX-x, centroY+y);
+				//SDL_RenderDrawLine(gameRenderer, centroX+x, centroY+y+1, centroX-x, centroY+y+1);
 			//if((int)aux != (int)x){ //pra n desenhar as linhas "dos polos" mais d 1x e elas ficarem mais nítidas q o resto
 				//aux = x;
 //				SDL_RenderDrawLine(gameRenderer, centroX+(raio-x), centroY-(raio-y)+1, centroX-(raio-x), centroY-(raio-y)+1);
